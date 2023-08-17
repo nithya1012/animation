@@ -1,0 +1,65 @@
+.anime{
+   width: 100px;
+    height: 100px;
+    background-color: teal;
+    animation-name: sqr;
+    animation-duration: 3s;
+    animation-delay: 7s;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+
+}
+@keyframes sqr{
+    0%{
+        background-color: blue;
+        top: 0;
+        left: 0;
+    }
+    25%{
+        background-color: black;
+        top: 0;
+        left: 200px;
+    }
+    50%{
+        background-color: red;
+        top: 200px;
+        left: 200px;
+    }
+    75%{
+        background-color: gainsboro;
+        top: 200px;
+        left: 0;
+    }
+    100%{
+        background-color: burlywood;
+        top: 0;
+        left: 0;
+    }
+}
+.anime2{
+    width: 100px;
+     height: 100px;
+     background-color:rebeccapurple;
+     animation-name:anime2;
+     animation-duration: 3s;
+     animation-delay: 7s;
+     margin-top: 200px;
+     position: relative;
+     animation-iteration-count: infinite;
+     animation-timing-function: ease;
+ 
+ }
+ @keyframes anime2{
+    from{
+        background-color: aqua;
+        top: 0;
+        left: 0;
+    }
+    to{
+        background-color: blue;
+        top: 0;
+        left: 200px;
+    }
+    
+ }
